@@ -270,6 +270,13 @@
       <defaultGoal>clean package install</defaultGoal>
       <extensions>
          <extension>
+            <!-- Archetype Packaging -->
+            <!-- Allows creating the archetype from the project. -->
+            <groupId>org.apache.maven.archetype</groupId>
+            <artifactId>archetype-packaging</artifactId>
+            <version>${plugin.archetype.version}</version>
+         </extension>
+         <extension>
             <!-- Wagon SSH -->
             <!-- Enables the use of SSH. -->
             <groupId>org.apache.maven.wagon</groupId>
