@@ -5,8 +5,8 @@
       <author email="programming@wandrell.com">Bernardo Martínez Garrido</author>
    </properties>
    <body>
-      <release version="1.0.0" date="2017-07-30" description="First release">
-         <action dev="bmg" type="update">
+      <release version="1.0.0" date="2017-08-01" description="First release">
+         <action dev="bmg" type="add">
             First release.
          </action>
       </release>
