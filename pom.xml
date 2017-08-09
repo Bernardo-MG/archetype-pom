@@ -14,7 +14,7 @@
 
    <groupId>com.wandrell.maven</groupId>
    <artifactId>archetype-pom</artifactId>
-   <version>1.0.0</version>
+   <version>1.0.1</version>
    <packaging>pom</packaging>
 
    <name>Archetype parent POM</name>
@@ -520,6 +520,17 @@
                      <url>${project.url}</url>
                   </manifestEntries>
                </archive>
+            </configuration>
+         </plugin>
+         <plugin>
+            <!-- Resources -->
+            <!-- Handles the project resources. -->
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-resources-plugin</artifactId>
+            <configuration>
+               <!-- Required so that .gitignore gets included in archetypes; 
+                  see https://issues.apache.org/jira/browse/MRESOURCES-190 -->
+               <addDefaultExcludes>false</addDefaultExcludes>
             </configuration>
          </plugin>
          <plugin>
