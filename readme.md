@@ -4,7 +4,7 @@ Parent [Maven POM][maven-pom-intro] setting up a [Maven Archetype][maven-archety
 
 **JDK support:** *the POM only supports JDK 1.7 onward, due to the plugins included.*
 
-[![Maven Central](https://img.shields.io/maven-central/v/com.wandrell.maven/archetype-pom.svg)][maven-repo]
+[![Maven Central](https://img.shields.io/maven-central/v/com.bernardomg.maven/archetype-pom.svg)][maven-repo]
 [![Bintray](https://api.bintray.com/packages/bernardo-mg/maven/archetype-pom/images/download.svg)][bintray-repo]
 
 [![Release docs](https://img.shields.io/badge/docs-release-blue.svg)][site-release]
@@ -56,7 +56,7 @@ The POM can be used by just adding the following lines to the Maven POM for your
 
 ```
 <parent>
-    <groupId>com.wandrell.maven</groupId>
+    <groupId>com.bernardomg.maven</groupId>
     <artifactId>archetype-pom</artifactId>
     <version>(Check POM or badges)</version>
 </parent>
@@ -90,11 +90,11 @@ The project has been released under the [MIT License][license].
 [maven-pom-intro]: https://maven.apache.org/guides/introduction/introduction-to-the-pom.html#Project_Inheritance
 
 [bintray-repo]: https://bintray.com/bernardo-mg/maven/archetype-pom/view
-[maven-repo]: http://mvnrepository.com/artifact/com.wandrell.maven/archetype-pom
+[maven-repo]: http://mvnrepository.com/artifact/com.bernardomg.maven/archetype-pom
 [issues]: https://github.com/Bernardo-MG/archetype-pom/issues
 [license]: http://www.opensource.org/licenses/mit-license.php
 [scm]: https://github.com/Bernardo-MG/archetype-pom
-[site-develop]: http://docs.wandrell.com/development/maven/archetype-pom
-[site-release]: http://docs.wandrell.com/maven/archetype-pom
+[site-develop]: http://docs.bernardomg.com/development/maven/archetype-pom
+[site-release]: http://docs.bernardomg.com/maven/archetype-pom
 
 [maven-archetype]: https://maven.apache.org/guides/introduction/introduction-to-archetypes.html

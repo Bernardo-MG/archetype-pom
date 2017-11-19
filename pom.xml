@@ -12,9 +12,9 @@
    <!-- **************** PROJECT INFO **************** -->
    <!-- ********************************************** -->
 
-   <groupId>com.wandrell.maven</groupId>
+   <groupId>com.bernardomg.maven</groupId>
    <artifactId>archetype-pom</artifactId>
-   <version>1.0.3</version>
+   <version>1.1.0</version>
    <packaging>pom</packaging>
 
    <name>Archetype parent POM</name>
@@ -83,7 +83,7 @@
          <properties>
             <!-- Maven Site -->
             <bintrayURL>https://bintray.com/bernardo-mg/maven/archetype-pom/view</bintrayURL>
-            <mavenURL>http://mvnrepository.com/artifact/com.wandrell.maven/archetype-pom</mavenURL>
+            <mavenURL>http://mvnrepository.com/artifact/com.bernardomg.maven/archetype-pom</mavenURL>
          </properties>
          <build>
             <plugins>
@@ -175,7 +175,7 @@
          </activation>
          <properties>
             <!-- Manifest data -->
-            <manifest.name>com/wandrell/maven/pom/base</manifest.name>
+            <manifest.name>com/bernardomg/maven/pom/base</manifest.name>
          </properties>
       </profile>
    </profiles>
@@ -193,7 +193,7 @@
       <developer>
          <id>bmg</id>
          <name>Bernardo Martínez Garrido</name>
-         <email>programming@wandrell.com</email>
+         <email>programming@bernardomg.com</email>
          <url>https://github.com/Bernardo-MG</url>
          <organization>Bernardo Martínez Garrido</organization>
          <organizationUrl>https://github.com/Bernardo-MG</organizationUrl>
