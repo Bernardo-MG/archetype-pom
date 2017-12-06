@@ -5,6 +5,11 @@
       <author email="programming@bernardomg.com">Bernardo Martínez Garrido</author>
    </properties>
    <body>
+      <release version="1.1.2" date="2017-12-06" description="Removed relocation info">
+         <action dev="bmg" type="remove">
+            Removed relocation info.
+         </action>
+      </release>
       <release version="1.1.1" date="2017-11-19" description="Removed invoker">
          <action dev="bmg" type="remove">
             Removed invoker version definition.

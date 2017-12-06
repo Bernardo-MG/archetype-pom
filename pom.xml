@@ -14,7 +14,7 @@
 
    <groupId>com.bernardomg.maven</groupId>
    <artifactId>archetype-pom</artifactId>
-   <version>1.1.1-SNAPSHOT</version>
+   <version>1.1.2-SNAPSHOT</version>
    <packaging>pom</packaging>
 
    <name>Archetype parent POM</name>
@@ -53,9 +53,6 @@
    </ciManagement>
 
    <distributionManagement>
-      <relocation>
-         <groupId>com.bernardomg.maven</groupId>
-      </relocation>
       <repository>
          <uniqueVersion>false</uniqueVersion>
          <id>releases</id>
