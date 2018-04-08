@@ -245,7 +245,7 @@
       <plugin.release.version>2.5.3</plugin.release.version>
       <plugin.reports.version>2.9</plugin.reports.version>
       <plugin.resources.version>3.0.2</plugin.resources.version>
-      <plugin.site.version>3.6</plugin.site.version>
+      <plugin.site.version>3.7</plugin.site.version>
       <plugin.source.version>3.0.1</plugin.source.version>
       <plugin.versions.version>2.5</plugin.versions.version>
       <!-- ============================================== -->
