@@ -573,9 +573,9 @@
                <reportSet>
                   <reports>
                      <report>summary</report>
-                     <report>license</report>
+                     <report>licenses</report>
                      <report>modules</report>
-                     <report>project-team</report>
+                     <report>team</report>
                      <report>dependencies</report>
                      <report>dependency-info</report>
                      <report>dependency-management</report>
