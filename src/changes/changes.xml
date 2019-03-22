@@ -5,7 +5,10 @@
       <author email="programming@bernardomg.com">Bernardo Martínez Garrido</author>
    </properties>
    <body>
-      <release version="1.2.0" date="2019-03-11" description="">
+      <release version="1.1.5" date="2019-03-22" description="Configuration fix">
+         <action dev="bmg" type="fix">
+            Fixes to configuration.
+         </action>
       </release>
       <release version="1.1.4" date="2019-03-17" description="Reports plugin fix">
          <action dev="bmg" type="fix">
