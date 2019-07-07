@@ -45,7 +45,6 @@
       <system>GitHub</system>
       <url>https://www.github.com/Bernardo-MG/archetype-pom/issues</url>
    </issueManagement>
-   
 
    <ciManagement>
       <system>Travis CI</system>
