@@ -11,6 +11,7 @@ matrix:
     # Documentation deployed with JDK8
     - jdk: oraclejdk8
       env: DEPLOY_DOCS=true
+dist: trusty
 
 before_install:
   # Gets scripts
