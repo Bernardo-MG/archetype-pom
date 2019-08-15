@@ -5,7 +5,13 @@
       <author email="programming@bernardomg.com">Bernardo Martínez Garrido</author>
    </properties>
    <body>
-      <release version="1.1.5" date="2019-03-22" description="Configuration fix">
+      <release version="1.2.0" date="2019-03-22" description="Updated Maven plugins and JDK support">
+         <action dev="bmg" type="remove">
+            Dropped JDK 7 support.
+         </action>
+         <action dev="bmg" type="update">
+            Updated Maven plugins.
+         </action>
          <action dev="bmg" type="fix">
             Fixes to configuration.
          </action>
