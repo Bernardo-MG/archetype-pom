@@ -5,7 +5,7 @@
       <author email="programming@bernardomg.com">Bernardo Martínez Garrido</author>
    </properties>
    <body>
-      <release version="1.2.0" date="2019-03-22" description="Updated Maven plugins and JDK support">
+      <release version="1.2.0" date="2019-09-24" description="Updated Maven plugins and JDK support">
          <action dev="bmg" type="remove">
             Dropped JDK 7 support.
          </action>
