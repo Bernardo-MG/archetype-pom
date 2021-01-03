@@ -47,8 +47,8 @@
    </issueManagement>
 
    <ciManagement>
-      <system>Travis CI</system>
-      <url>https://travis-ci.org/Bernardo-MG/archetype-pom</url>
+      <system>Github workflow</system>
+      <url>https://github.com/Bernardo-MG/archetype-pom/actions</url>
       <notifiers />
    </ciManagement>
 
