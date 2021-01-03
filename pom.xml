@@ -256,11 +256,11 @@
       <!-- ============================================== -->
       <!-- ============= EXTENSIONS VERSIONS ============ -->
       <!-- ============================================== -->
-      <extension.wagon.version>3.4.1</extension.wagon.version>
+      <extension.wagon.version>3.4.2</extension.wagon.version>
       <!-- ============================================== -->
       <!-- ================= MAVEN SITE ================= -->
       <!-- ============================================== -->
-      <site.skin.version>2.0.8</site.skin.version>
+      <site.skin.version>2.0.10</site.skin.version>
    </properties>
 
    <!-- ********************************************** -->
