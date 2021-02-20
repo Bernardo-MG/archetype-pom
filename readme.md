@@ -2,8 +2,6 @@
 
 Parent [Maven POM][maven-pom-intro] setting up a [Maven Archetype][maven-archetype] project. This contains the configuration for several plugins.
 
-**JDK support:** *the POM only supports JDK 1.7 onward, due to the plugins included.*
-
 [![Maven Central](https://img.shields.io/maven-central/v/com.bernardomg.maven/archetype-pom.svg)][maven-repo]
 [![Bintray](https://api.bintray.com/packages/bernardo-mg/maven/archetype-pom/images/download.svg)][bintray-repo]
 
@@ -39,16 +37,6 @@ $ mvn site -P site,config
 ## Usage
 
 The application is a XML file, a Maven POM file.
-
-### Prerequisites
-
-The project has been tested on the following Java versions:
-* JDK 8
-* OpenJDK 7
-
-As a Maven parent POM, it also requires Maven.
-
-Additional dependencies, mostly plugins, will be handled automatically through Maven.
 
 ### Installing
 
