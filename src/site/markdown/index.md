@@ -15,12 +15,8 @@ If a a completely generic POM is needed the [base POM][base-pom] project is a be
 - Common build and report [plugins][plugins-list].
 - Deployment plugin prepared to deploy into the distribution management repo.
 - Manifest prepared with default configuration.
-- Sets the JDK version (Java 1.7 by default) to be used by the project.
+- Sets the JDK version to be used by the project.
 - Sets the encoding (UTF-8 by default) for all the project.
-
-## JDK support
-
-Only JDK 1.7 onward is supported. This is due to the plugins included in the POM.
 
 ## Dependencies
 
