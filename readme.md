@@ -82,7 +82,7 @@ The project has been released under the [MIT License][license].
 [issues]: https://github.com/Bernardo-MG/archetype-pom/issues
 [license]: http://www.opensource.org/licenses/mit-license.php
 [scm]: https://github.com/Bernardo-MG/archetype-pom
-[site-develop]: http://docs.bernardomg.com/development/maven/archetype-pom
-[site-release]: http://docs.bernardomg.com/maven/archetype-pom
+[site-develop]: https://docs.bernardomg.com/development/maven/archetype-pom
+[site-release]: https://docs.bernardomg.com/maven/archetype-pom
 
 [maven-archetype]: https://maven.apache.org/guides/introduction/introduction-to-archetypes.html
