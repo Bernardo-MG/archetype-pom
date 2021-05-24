@@ -3,7 +3,6 @@
 Parent [Maven POM][maven-pom-intro] setting up a [Maven Archetype][maven-archetype] project. This contains the configuration for several plugins.
 
 [![Maven Central](https://img.shields.io/maven-central/v/com.bernardomg.maven/archetype-pom.svg)][maven-repo]
-[![Bintray](https://api.bintray.com/packages/bernardo-mg/maven/archetype-pom/images/download.svg)][bintray-repo]
 
 [![Release docs](https://img.shields.io/badge/docs-release-blue.svg)][site-release]
 [![Development docs](https://img.shields.io/badge/docs-develop-blue.svg)][site-develop]
@@ -77,7 +76,6 @@ The project has been released under the [MIT License][license].
 
 [maven-pom-intro]: https://maven.apache.org/guides/introduction/introduction-to-the-pom.html#Project_Inheritance
 
-[bintray-repo]: https://bintray.com/bernardo-mg/maven/archetype-pom/view
 [maven-repo]: http://mvnrepository.com/artifact/com.bernardomg.maven/archetype-pom
 [issues]: https://github.com/Bernardo-MG/archetype-pom/issues
 [license]: http://www.opensource.org/licenses/mit-license.php
