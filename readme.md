@@ -2,10 +2,7 @@
 
 Parent [Maven POM][maven-pom-intro] setting up a [Maven Archetype][maven-archetype] project. This contains the configuration for several plugins.
 
-**JDK support:** *the POM only supports JDK 1.7 onward, due to the plugins included.*
-
 [![Maven Central](https://img.shields.io/maven-central/v/com.bernardomg.maven/archetype-pom.svg)][maven-repo]
-[![Bintray](https://api.bintray.com/packages/bernardo-mg/maven/archetype-pom/images/download.svg)][bintray-repo]
 
 [![Release docs](https://img.shields.io/badge/docs-release-blue.svg)][site-release]
 [![Development docs](https://img.shields.io/badge/docs-develop-blue.svg)][site-develop]
@@ -33,22 +30,12 @@ Documentation is also generated from the latest snapshot, taken from the 'develo
 The documentation site sources come along the source code (as it is a Maven site), so it is always possible to generate them using the following Maven command:
 
 ```
-$ mvn site -P site,config
+mvn site -P site,config
 ```
 
 ## Usage
 
 The application is a XML file, a Maven POM file.
-
-### Prerequisites
-
-The project has been tested on the following Java versions:
-* JDK 8
-* OpenJDK 7
-
-As a Maven parent POM, it also requires Maven.
-
-Additional dependencies, mostly plugins, will be handled automatically through Maven.
 
 ### Installing
 
@@ -65,7 +52,7 @@ The POM can be used by just adding the following lines to the Maven POM for your
 If needed, the project can be added to the local Maven repository with the following command:
 
 ```
-$ mvn install -P config
+mvn install -P config
 ```
 
 ## Collaborate
@@ -89,12 +76,11 @@ The project has been released under the [MIT License][license].
 
 [maven-pom-intro]: https://maven.apache.org/guides/introduction/introduction-to-the-pom.html#Project_Inheritance
 
-[bintray-repo]: https://bintray.com/bernardo-mg/maven/archetype-pom/view
 [maven-repo]: http://mvnrepository.com/artifact/com.bernardomg.maven/archetype-pom
 [issues]: https://github.com/Bernardo-MG/archetype-pom/issues
 [license]: http://www.opensource.org/licenses/mit-license.php
 [scm]: https://github.com/Bernardo-MG/archetype-pom
-[site-develop]: http://docs.bernardomg.com/development/maven/archetype-pom
-[site-release]: http://docs.bernardomg.com/maven/archetype-pom
+[site-develop]: https://docs.bernardomg.com/development/maven/archetype-pom
+[site-release]: https://docs.bernardomg.com/maven/archetype-pom
 
 [maven-archetype]: https://maven.apache.org/guides/introduction/introduction-to-archetypes.html
