@@ -277,9 +277,9 @@
       <plugin.changes.version>2.12.1</plugin.changes.version>
       <plugin.clean.version>3.1.0</plugin.clean.version>
       <plugin.compiler.version>3.8.1</plugin.compiler.version>
-      <plugin.dependency.version>3.1.2</plugin.dependency.version>
+      <plugin.dependency.version>3.2.0</plugin.dependency.version>
       <plugin.deploy.version>3.0.0-M1</plugin.deploy.version>
-      <plugin.enforcer.version>3.0.0-M3</plugin.enforcer.version>
+      <plugin.enforcer.version>3.0.0</plugin.enforcer.version>
       <plugin.gpg.version>3.0.1</plugin.gpg.version>
       <plugin.install.version>3.0.0-M1</plugin.install.version>
       <plugin.jar.version>3.2.0</plugin.jar.version>
