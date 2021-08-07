@@ -156,7 +156,7 @@
                <!-- Github repository -->
                <id>github</id>
                <name>GitHub Packages</name>
-               <url>https://maven.pkg.github.com/Bernardo-MG/base-pom</url>
+               <url>https://maven.pkg.github.com/Bernardo-MG/archetype-pom</url>
             </repository>
          </distributionManagement>
       </profile>

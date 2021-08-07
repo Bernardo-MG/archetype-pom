@@ -10,8 +10,8 @@
             Updated Maven plugins.
          </action>
       </release>
-      <release version="1.2.3" date="2021-05-18" description="Updated deploymenht">
-         <action dev="bmg" type="update">
+      <release version="1.2.3" date="2021-05-24" description="Deployment update">
+         <action dev="bmg" type="add">
             Extended and updated deployment config.
          </action>
       </release>
