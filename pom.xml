@@ -250,7 +250,7 @@
       <!-- ============================================== -->
       <!-- =============== MAVEN VERSION ================ -->
       <!-- ============================================== -->
-      <maven.version>3.1</maven.version>
+      <maven.version>3.1.1</maven.version>
       <!-- ============================================== -->
       <!-- ================== ENCODING ================== -->
       <!-- ============================================== -->
@@ -283,8 +283,8 @@
       <plugin.gpg.version>3.0.1</plugin.gpg.version>
       <plugin.install.version>3.0.0-M1</plugin.install.version>
       <plugin.jar.version>3.2.0</plugin.jar.version>
-      <plugin.release.version>3.0.0-M1</plugin.release.version>
-      <plugin.reports.version>3.1.1</plugin.reports.version>
+      <plugin.release.version>3.0.0-M4</plugin.release.version>
+      <plugin.reports.version>3.1.2</plugin.reports.version>
       <plugin.resources.version>3.2.0</plugin.resources.version>
       <plugin.site.version>3.9.1</plugin.site.version>
       <plugin.source.version>3.2.1</plugin.source.version>
