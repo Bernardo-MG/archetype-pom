@@ -14,7 +14,7 @@
 
    <groupId>com.bernardomg.maven</groupId>
    <artifactId>archetype-pom</artifactId>
-   <version>1.2.3</version>
+   <version>1.2.4</version>
    <packaging>pom</packaging>
 
    <name>Archetype parent POM</name>
@@ -250,7 +250,7 @@
       <!-- ============================================== -->
       <!-- =============== MAVEN VERSION ================ -->
       <!-- ============================================== -->
-      <maven.version>3.1</maven.version>
+      <maven.version>3.1.1</maven.version>
       <!-- ============================================== -->
       <!-- ================== ENCODING ================== -->
       <!-- ============================================== -->
@@ -277,14 +277,14 @@
       <plugin.changes.version>2.12.1</plugin.changes.version>
       <plugin.clean.version>3.1.0</plugin.clean.version>
       <plugin.compiler.version>3.8.1</plugin.compiler.version>
-      <plugin.dependency.version>3.1.2</plugin.dependency.version>
+      <plugin.dependency.version>3.2.0</plugin.dependency.version>
       <plugin.deploy.version>3.0.0-M1</plugin.deploy.version>
-      <plugin.enforcer.version>3.0.0-M3</plugin.enforcer.version>
+      <plugin.enforcer.version>3.0.0</plugin.enforcer.version>
       <plugin.gpg.version>3.0.1</plugin.gpg.version>
       <plugin.install.version>3.0.0-M1</plugin.install.version>
       <plugin.jar.version>3.2.0</plugin.jar.version>
-      <plugin.release.version>3.0.0-M1</plugin.release.version>
-      <plugin.reports.version>3.1.1</plugin.reports.version>
+      <plugin.release.version>3.0.0-M4</plugin.release.version>
+      <plugin.reports.version>3.1.2</plugin.reports.version>
       <plugin.resources.version>3.2.0</plugin.resources.version>
       <plugin.site.version>3.9.1</plugin.site.version>
       <plugin.source.version>3.2.1</plugin.source.version>
