@@ -39,6 +39,7 @@
          <item name="Usage" href="./usage.html" />
          <item name="Plugins" href="./plugins_list.html" />
          <item name="Build validation" href="./build_validation.html" />
+         <item name="Default configuration" href="./configuration.html" />
       </menu>
       <menu name="Info and reports" inherit="bottom">
          <item name="Info" href="./info.html" />
