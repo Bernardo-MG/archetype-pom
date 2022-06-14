@@ -2,7 +2,7 @@
 
 Parent [Maven POM][maven-pom-intro] setting up a [Maven Archetype][maven-archetype] project. This is done without adding any additional dependency to the project, only Maven plugins.
 
-For a generic, non archetype, projects check the [base POM][base-pom].
+For a generic, non archetype, POM check the [base POM][base-pom].
 
 ## Features
 
