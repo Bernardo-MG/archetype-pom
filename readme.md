@@ -1,6 +1,8 @@
-# Archetype parent POM
+# Archetype Parent POM
 
-Parent [Maven POM][maven-pom-intro] setting up a [Maven Archetype][maven-archetype] project. This contains the configuration for several plugins.
+Parent [Maven POM][maven-pom-intro] setting up a [Maven Archetype][maven-archetype] project. This is done without adding any additional dependency to the project, only Maven plugins.
+
+For generic, non archetype, projects check the [base POM][base-pom].
 
 [![Maven Central](https://img.shields.io/maven-central/v/com.bernardomg.maven/archetype-pom.svg)][maven-repo]
 
@@ -9,13 +11,17 @@ Parent [Maven POM][maven-pom-intro] setting up a [Maven Archetype][maven-archety
 
 ## Features
 
-- Reduces the need to set up new Maven archetype projects.
-- Sets up the encoding and Java version of the project.
+- Build validation.
+- Maven Site reports added for the project.
 - Common build and report plugins.
-- Validation rules, including dependency convergence.
-- Basic configuration, such as a default manifest file.
-- Support for JDK7 onward.
+- Deployment plugin prepared to deploy into the distribution management repo.
+- Manifest prepared with default configuration.
+- Sets the JDK version to be used by the project.
 - Sets the project default encoding to UTF-8.
+
+## Example
+
+The [Library Maven Archetype][library-archetype] makes use of this POM. And extends it. This is an easy way to check how the POM can be used and modified.
 
 ## Documentation
 
@@ -35,12 +41,7 @@ mvn site -P deployment-site
 
 ## Usage
 
-The application is a XML file, a Maven POM file.
-
-### Installing
-
-The POM can be used by just adding the following lines to the Maven POM for your project:
-
+Use as a parent POM on any Maven archetype project:
 ```
 <parent>
     <groupId>com.bernardomg.maven</groupId>
@@ -48,6 +49,8 @@ The POM can be used by just adding the following lines to the Maven POM for your
     <version>(Check POM or badges)</version>
 </parent>
 ```
+
+### Installing
 
 If needed, the project can be added to the local Maven repository with the following command:
 
@@ -75,6 +78,8 @@ If you wish to fork or modify the code, visit the [GitHub project page][scm], wh
 The project has been released under the [MIT License][license].
 
 [maven-pom-intro]: https://maven.apache.org/guides/introduction/introduction-to-the-pom.html#Project_Inheritance
+[base-pom]: https://github.com/Bernardo-MG/base-pom
+[library-archetype]: https://github.com/Bernardo-MG/library-maven-archetype
 
 [maven-repo]: http://mvnrepository.com/artifact/com.bernardomg.maven/archetype-pom
 [issues]: https://github.com/Bernardo-MG/archetype-pom/issues
