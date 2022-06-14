@@ -275,17 +275,15 @@
       <plugin.source.version>3.2.1</plugin.source.version>
       <plugin.versions.version>2.11.0</plugin.versions.version>
       <!-- ============================================== -->
-      <!-- =========== PLUGINS CONFIGURATION ============ -->
-      <!-- ============================================== -->
-      <!-- Relativizing the Maven Site links has a tendency to break them -->
-      <relativizeDecorationLinks>false</relativizeDecorationLinks>
-      <!-- ============================================== -->
       <!-- ============= EXTENSIONS VERSIONS ============ -->
       <!-- ============================================== -->
       <extension.wagon.version>3.4.3</extension.wagon.version>
       <!-- ============================================== -->
       <!-- ================= MAVEN SITE ================= -->
       <!-- ============================================== -->
+      <!-- Relativizing the Maven Site links has a tendency to break them -->
+      <relativizeDecorationLinks>false</relativizeDecorationLinks>
+      <!-- Skin version -->
       <site.skin.version>2.2.6</site.skin.version>
    </properties>
 
