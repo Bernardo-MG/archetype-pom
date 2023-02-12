@@ -234,6 +234,8 @@
       <files.encoding>UTF-8</files.encoding>
       <project.build.sourceEncoding>${files.encoding}</project.build.sourceEncoding>
       <project.reporting.outputEncoding>${project.build.sourceEncoding}</project.reporting.outputEncoding>
+      <plugin.enforcer.requireJavaVersion.jdk>${java.version}</plugin.enforcer.requireJavaVersion.jdk>
+      <plugin.enforcer.requireJavaVersion.pattern>[${plugin.enforcer.requireJavaVersion.jdk},)</plugin.enforcer.requireJavaVersion.pattern>
       <!-- ============================================== -->
       <!-- ================ JAVA VERSION ================ -->
       <!-- ============================================== -->
@@ -462,7 +464,7 @@
                      <rules>
                         <!-- Not obsolete JDK. -->
                         <requireJavaVersion>
-                           <version>[${java.version},)</version>
+                           <version>${plugin.enforcer.requireJavaVersion.pattern}</version>
                         </requireJavaVersion>
                      </rules>
                   </configuration>
