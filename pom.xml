@@ -306,7 +306,7 @@
       <pluginManagement>
          <plugins>
             <!-- Plugin versions and configurations are enforced here. -->
-            <!-- Some of these plugins are added by default by Maven in some 
+            <!-- Some of these plugins are added by default by Maven in some
                situations. Others are just useful. -->
             <plugin>
                <!-- Ant Run -->
@@ -360,14 +360,14 @@
             <plugin>
                <!-- Deploy -->
                <!-- Takes care of the deployment phase -->
-               <!-- It is set to generate and deploy a POM file along the 
+               <!-- It is set to generate and deploy a POM file along the
                   artifact -->
                <artifactId>maven-deploy-plugin</artifactId>
                <version>${plugin.deploy.version}</version>
             </plugin>
             <plugin>
                <!-- Enforcer -->
-               <!-- Stops the project from being built if it does not comply 
+               <!-- Stops the project from being built if it does not comply
                   with a set of rules. -->
                <groupId>org.apache.maven.plugins</groupId>
                <artifactId>maven-enforcer-plugin</artifactId>
@@ -430,7 +430,7 @@
             </plugin>
             <plugin>
                <!-- Versions -->
-               <!-- Generates a report with the versions of all plugins and 
+               <!-- Generates a report with the versions of all plugins and
                   dependencies. -->
                <groupId>org.codehaus.mojo</groupId>
                <artifactId>versions-maven-plugin</artifactId>
@@ -449,7 +449,7 @@
          </plugin>
          <plugin>
             <!-- Enforcer -->
-            <!-- Stops the project from being built if it does not comply 
+            <!-- Stops the project from being built if it does not comply
                with a set of rules. -->
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-enforcer-plugin</artifactId>
@@ -547,7 +547,7 @@
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-resources-plugin</artifactId>
             <configuration>
-               <!-- Required so that .gitignore gets included in archetypes; 
+               <!-- Required so that .gitignore gets included in archetypes;
                   see https://issues.apache.org/jira/browse/MRESOURCES-190 -->
                <addDefaultExcludes>false</addDefaultExcludes>
             </configuration>
