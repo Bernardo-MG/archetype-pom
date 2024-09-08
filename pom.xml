@@ -245,7 +245,9 @@
       <!-- ============================================== -->
       <!-- ============= COMPILER WARNINGS ============== -->
       <!-- ============================================== -->
+      <!-- Deprecation warnings are logged -->
       <maven.compiler.showDeprecation>true</maven.compiler.showDeprecation>
+      <!-- Compilation warnings are logged -->
       <maven.compiler.showWarnings>true</maven.compiler.showWarnings>
       <!-- ============================================== -->
       <!-- ============== PLUGINS VERSIONS ============== -->
