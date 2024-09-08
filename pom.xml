@@ -234,14 +234,14 @@
       <files.encoding>UTF-8</files.encoding>
       <project.build.sourceEncoding>${files.encoding}</project.build.sourceEncoding>
       <project.reporting.outputEncoding>${project.build.sourceEncoding}</project.reporting.outputEncoding>
-      <plugin.enforcer.requireJavaVersion.jdk>${java.version}</plugin.enforcer.requireJavaVersion.jdk>
-      <plugin.enforcer.requireJavaVersion.pattern>[${plugin.enforcer.requireJavaVersion.jdk},)</plugin.enforcer.requireJavaVersion.pattern>
       <!-- ============================================== -->
       <!-- ================ JAVA VERSION ================ -->
       <!-- ============================================== -->
       <java.version>17</java.version>
       <maven.compiler.source>${java.version}</maven.compiler.source>
       <maven.compiler.target>${maven.compiler.source}</maven.compiler.target>
+      <plugin.enforcer.requireJavaVersion.jdk>${java.version}</plugin.enforcer.requireJavaVersion.jdk>
+      <plugin.enforcer.requireJavaVersion.pattern>[${plugin.enforcer.requireJavaVersion.jdk},)</plugin.enforcer.requireJavaVersion.pattern>
       <!-- ============================================== -->
       <!-- ============= COMPILER WARNINGS ============== -->
       <!-- ============================================== -->
