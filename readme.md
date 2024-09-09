@@ -6,9 +6,6 @@ For a generic, non archetype, POM check the [base POM][base-pom].
 
 [![Maven Central](https://img.shields.io/maven-central/v/com.bernardomg.maven/archetype-pom.svg)][maven-repo]
 
-[![Release docs](https://img.shields.io/badge/docs-release-blue.svg)][site-release]
-[![Development docs](https://img.shields.io/badge/docs-develop-blue.svg)][site-develop]
-
 ## Features
 
 - Build validation.
