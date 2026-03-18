@@ -248,25 +248,25 @@
       <!-- ============================================== -->
       <!-- ============== PLUGINS VERSIONS ============== -->
       <!-- ============================================== -->
-      <plugin.ant.version>3.1.0</plugin.ant.version>
-      <plugin.archetype.version>3.4.0</plugin.archetype.version>
-      <plugin.assembly.version>3.7.1</plugin.assembly.version>
-      <plugin.central.version>0.7.0</plugin.central.version>
+      <plugin.ant.version>3.2.0</plugin.ant.version>
+      <plugin.archetype.version>3.4.1</plugin.archetype.version>
+      <plugin.assembly.version>3.8.0</plugin.assembly.version>
+      <plugin.central.version>0.10.0</plugin.central.version>
       <plugin.changes.version>2.12.1</plugin.changes.version>
       <plugin.clean.version>3.5.0</plugin.clean.version>
-      <plugin.compiler.version>3.14.0</plugin.compiler.version>
-      <plugin.dependency.version>3.8.1</plugin.dependency.version>
+      <plugin.compiler.version>3.15.0</plugin.compiler.version>
+      <plugin.dependency.version>3.10.0</plugin.dependency.version>
       <plugin.deploy.version>3.1.4</plugin.deploy.version>
-      <plugin.enforcer.version>3.5.0</plugin.enforcer.version>
-      <plugin.gpg.version>3.2.7</plugin.gpg.version>
+      <plugin.enforcer.version>3.6.2</plugin.enforcer.version>
+      <plugin.gpg.version>3.2.8</plugin.gpg.version>
       <plugin.install.version>3.1.4</plugin.install.version>
-      <plugin.jar.version>3.4.2</plugin.jar.version>
-      <plugin.release.version>3.1.1</plugin.release.version>
+      <plugin.jar.version>3.5.0</plugin.jar.version>
+      <plugin.release.version>3.3.1</plugin.release.version>
       <plugin.reports.version>3.9.0</plugin.reports.version>
-      <plugin.resources.version>3.3.1</plugin.resources.version>
+      <plugin.resources.version>3.5.0</plugin.resources.version>
       <plugin.site.version>3.21.0</plugin.site.version>
-      <plugin.source.version>3.3.1</plugin.source.version>
-      <plugin.versions.version>2.18.0</plugin.versions.version>
+      <plugin.source.version>3.4.0</plugin.source.version>
+      <plugin.versions.version>2.21.0</plugin.versions.version>
       <!-- ============================================== -->
       <!-- ============= EXTENSIONS VERSIONS ============ -->
       <!-- ============================================== -->
